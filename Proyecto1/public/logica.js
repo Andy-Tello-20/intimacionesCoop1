@@ -4,9 +4,11 @@
 let URLweb = "https://proyectointimacionesagua2-production.up.railway.app/login"
 let localhost = "http://localhost:8080/login"
 
-setTimeout(function () {
 
+
+
+setTimeout(function() {
     //! cambiar a window.location.href = "http://localhost:8080/login" para desarrollar
-
-    window.location.href = (URLweb)
+    console.log("hola2")
+    window.location.href = (localhost)
 }, 70000);

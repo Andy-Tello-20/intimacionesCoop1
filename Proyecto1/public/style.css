@@ -30,3 +30,25 @@
 .boton_enlace{
     margin-bottom: 21px;
 }
+
+article{
+    background: linear-gradient(45deg,#00000096 29%,rgb(121, 192, 255));
+    text-align: center;
+    border-radius: 34px;
+    box-shadow: 34px 20px 44px rgb(0 0 0 / 33%);
+
+}
+
+input{
+    background: white
+}
+
+body{
+    background: rgb(1, 80, 80)
+}
+
+main{
+    text-align: center;
+}
+/* background: linear-gradient(45deg,black 29%,rgb(121, 192, 255)) colores para article*/
+/* background: rgb(1, 80, 80); colores para body */
