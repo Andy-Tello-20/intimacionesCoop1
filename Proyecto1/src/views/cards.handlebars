@@ -1,0 +1,26 @@
+<article>
+    {{#each listUsers}}
+
+    <div class="Tarjeta">
+        <h3>Imagen</h3>
+      
+        <a class="boton_enlace" href="{{url_photo}}" role="button" target="_blank"  >enlace a foto</a>
+        <img class="foto_Casa" src="{{url_photo}}" alt="Foto de la casa" width="400" height="400">
+
+        <p><strong>ID:</strong> {{_id}}</p>
+        <p><strong>Nombre:</strong> {{first_name}}</p>
+        <p><strong>Apellido:</strong> {{last_name}}</p>
+        <p><strong>Direccion:</strong> {{street}} {{number}}</p>
+        <div class="campo_Comentario"></div>
+        <h3>Ubicacion</h3>
+        <iframe class="Mapa" src="{{location}}" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        
+        
+    </div>
+    {{/each}}
+
+</article>
+
+
+

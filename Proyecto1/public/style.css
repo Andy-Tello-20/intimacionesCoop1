@@ -1,0 +1,32 @@
+.Tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white solid;
+    padding: 21px;
+}
+.ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.campo_Comentario{
+    margin-top: 20px;
+    width: 100%;
+    border: solid;
+    height: 100px;
+   
+}
+
+.Mapa{
+    min-width: 100%;
+    height:200px;
+}
+
+.foto_Casa{
+    margin-bottom: 20px;
+}
+
+.boton_enlace{
+    margin-bottom: 21px;
+}

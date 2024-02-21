@@ -1,0 +1,30 @@
+<header>
+  <h1>Crear Usuario</h1>
+</header>
+
+<article>
+  <form action="/api/create" method="post">
+
+    <label for="calle">Calle:</label>
+    <input type="text" id="calle" name="street" required>
+
+    <label for="nro">Número:</label>
+    <input type="number" id="nro" name="number" >
+
+    <label for="user_name">Nombre:</label>
+    <input type="text" id="user_name" name="first_name" required>
+
+    <label for="user_last_name">Apellido:</label>
+    <input type="text" id="user_last_name" name="last_name" required>
+
+    <label for="urlFoto">URL/FOTO:</label>
+    <input type="text" id="urlFoto" name="url_photo" >
+
+    <label for="ubicacion">Ubicación:</label>
+    <input type="text" id="ubicacion" name="location" >
+
+    <input type="submit" id="button"> Crear Usuario
+
+  </form>
+</article>
+

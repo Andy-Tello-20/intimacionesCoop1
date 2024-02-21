@@ -1,0 +1,38 @@
+<article>
+
+    <form id="form-update" action="/api/Updated" method="post">
+
+    {{#each findedUser}}
+    <div class="usuario_Obtenido">
+
+        <h3><strong>Usuario:</strong> {{first_name}} {{last_name}}</h3>
+
+        <label for="user_Id"></label>
+        <input type="password" id="user_Id" name="id" value="{{_id}}" style="display: none;">
+
+        <label for="calle">Calle:</label>
+        <input type="text" id="calle" name="street" value="{{street}}">
+
+        <label for="nro">Número:</label>
+        <input type="number" id="nro" name="number" value="{{number}}">
+
+        <label for="user_name">Nombre:</label>
+        <input type="text" id="user_name" name="first_name" value="{{first_name}}">
+
+        <label for="user_last_name">Apellido:</label>
+        <input type="text" id="user_last_name" name="last_name" value="{{last_name}}">
+
+        <label for="urlFoto">URL/FOTO:</label>
+        <input type="text" id="urlFoto" name="url_photo" value="{{url_photo}}">
+
+        <label for="ubicacion">Ubicación:</label>
+        <input type="text" id="ubicacion" name="location" value="{{location}}">
+
+        <input type="submit" id="buttonModificar"> Modificar Usuario
+    </div>
+    {{/each}}
+     </form>
+
+
+
+</article>
