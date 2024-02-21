@@ -44,7 +44,8 @@ input{
 }
 
 body{
-    background: rgb(1, 80, 80)
+    background: rgb(1, 80, 80);
+    height: 100vh;
 }
 
 main{
