@@ -10,5 +10,5 @@ let localhost = "http://localhost:8080/login"
 setTimeout(function() {
     //! cambiar a window.location.href = "http://localhost:8080/login" para desarrollar
     console.log("hola2")
-    window.location.href = (localhost)
+    window.location.href = (URLweb)
 }, 70000);
